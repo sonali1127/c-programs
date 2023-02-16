@@ -1,0 +1,16 @@
+//c program to print x to the power of y value
+#include<stdio.h>
+
+int main()
+{
+    int x,y,res=1;
+    printf("enter the values:");
+    scanf("%d%d",&x,&y);
+    while (y!=0)
+    {
+    res*=x;
+    y--;
+    }
+    printf("%d",res);
+    return 0;
+}
