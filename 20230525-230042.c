@@ -4,7 +4,7 @@
 int main()
 {
     char str[100];
-    int ch,i=0;
+    int i=0;
     gets(str);
     printf("given string : ");
     while(str[i]!='\0'){
