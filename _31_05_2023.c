@@ -4,9 +4,9 @@ void binsearch(int[],int,int);
 int main(){
     int arr[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};   
 	int len=sizeof(arr)/sizeof(int);
-	int mid,i,n,sind,eind;
+	int n;
 	scanf("%d",&n); 
-    binsearch(arr,len,n);
+        binsearch(arr,len,n);
     return 0;
 }
 void binsearch(int arr[],int len,int n){
